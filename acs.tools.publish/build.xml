@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!--程序所有文件都在ant里，那么是项目名称，basedir是工作的根目录，.代表当前目录。defualt代表默认要做的事情。 -->
+<project name="acs.tools.publish" default="run" basedir=".">
+	<property name="mySrc" value="src"/>
+	<property name="libs" value="libs"/>
+	<property name="myClassDirName" value="classes"/>
+	<property name="myBuildJarName" value="publish.jar"/>
+	
+	<!-- 
+	    [javac] E:\04-scala_eclipse\01-work\Hello\src\com\phei\netty\protocol\http\xml\TestOrder.java:22: 错误: 程序包org.jibx.runtime不存在
+	    [javac] import org.jibx.runtime.BindingDirectory;
+	-->
+	<property name="lib" value="${basedir}/libs"/>
+	
+	<path id="project.classpath">
+		   <fileset dir="${lib}">
+		   	<include name="*.jar"/>
+		   	</fileset>
+	</path>
+	
+	<!-- 
+	    第一步：初始化
+	        把你想做的每一件事情写成一个target ，它有一个名字，depends是它所依赖的target，在执行这个target 
+	        例如这里的compile之前ant会先检查init是否曾经被执行过，如果执行过则直接直接执行compile，如果没有则会先执行它依赖的target例如这里的init，
+	        然后在执行这个target如我们的计划  
+	-->
+    <target name="init">
+        <!-- 为了不拷贝，在这里开始定义好目标文件件，这样ant直接把结果放在目标文件夹中     新建文件夹： -->
+        <!--mkdir dir="${basedir}/bulid"/ -->
+        <mkdir dir="${basedir}/${myClassDirName}"/>
+    </target>
+	
+	
+	<!-- 
+	    第2步：编译
+	-->
+	<target name="compile" depends="init">
+		<!-- 
+		    includeantruntime="false"、
+		            解决：
+		    [javac] E:\04-scala_eclipse\01-work\Hello\build.xml:46: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+		-->
+		<javac srcdir="${mySrc}" destdir="${myClassDirName}" includeantruntime="false" nowarn="on" source="1.8" target="1.8" deprecation="true" debug="true" encoding="UTF-8" classpathref="project.classpath" >
+			<compilerarg line="-Xlint:unchecked" /> 			
+		</javac>
+	</target>
+		
+	<!--
+	第3步：做jar包
+	-->
+	<target name="build" depends="compile">
+		<!--
+		    Could not find com.phei.netty.protocol.http.xml.Test. Make sure you have it in your classpath
+		            主要是解决：
+		    /Hello/classes 目录的，编译后的.class文件存放位置
+		-->
+		<jar destfile="${basedir}/build/${myBuildJarName}" basedir="${myClassDirName}" >
+			<!--<path id="project.classpath">
+			       <fileset dir="${lib}">
+			            <include name="*.jar"/>
+	               </fileset>
+			</path> -->
+		</jar>
+		<!-- 创建生成的jar包存放位置 /***/bulid/publish.jar -->
+		
+		<jar destfile="${basedir}/build/${myBuildJarName}"></jar>
+	</target>
+	
+	<!--
+	    第4补:运行
+	    -->
+
+	    
+	    <target name="run" depends="clean,build">
+	           <java classname="acs.tools.publish.functest.MCalss" classpath="${basedir}/build/${myBuildJarName}" classpathref="project.classpath"/>
+	    </target>
+	
+	
+	<!-- 重新运行 -->
+	
+	<!-- target name="rerun" depends="run">
+		   <ant target="clean" />
+		   <ant target="run" />
+	</target -->
+	
+	<!-- 
+	        每次运行前清空，以前运行的东西，比如生成的jar包，编译的.class文件
+	-->
+	<target name="clean">
+		   <delete dir="${myClassDirName}" />
+		   <delete file="${basedir}/build/${myBuildJarName}" />
+	</target>
+
+</project>

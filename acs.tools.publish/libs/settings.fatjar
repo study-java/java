@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sat Sep 29 11:33:42 CST 2018
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=G\:\\BaiduNetdiskDownload\\MCalss.jar
+manifest.mergeall=true
+manifest.mainclass=acs.tools.publish.functest.MCalss
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=

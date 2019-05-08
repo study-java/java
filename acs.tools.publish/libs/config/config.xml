@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding = "utf-8" ?>
+
+<config>
+	<pmurl>http://pm.ysstech.com:8080/index.php?</pmurl>        <!--禅道地址-->
+	<pusername>chendaiwu</pusername>							<!--登录名称-->
+	<ppassword>951753cdw</ppassword>							<!--登录密码-->
+	<productplan>11635</productplan>							<!--发布版本计划号-->
+	<fileName>201807310003</fileName>							<!--压缩文件夹名称-->
+	<SMTPserver>smtp.ysstech.com</SMTPserver>					<!--邮箱SMTP-->
+	<from>chendaiwu@ysstech.com</from>							<!--邮件发送者-->
+	<username>chendaiwu@ysstech.com</username>					<!--邮箱使用名-->
+	<password>cdw520DW0614</password>							<!--邮箱密码-->
+	<to>chendaiwu@ysstech.com</to>								<!--有限接受者，多用户，用分号隔开-->
+	<downloads>C:/Users/hui/Downloads</downloads>				<!--禅道下载地址-->
+	<bugList>Bug列表</bugList>									<!--bug列表名称-->
+	<demandList>需求列表</demandList>							<!--需求列表名称-->
+	<subject>智能发布测试结果 --</subject>						<!--邮件标题-->
+	<sourcePath>H:/testSvn</sourcePath>							<!--源文件路径-->
+	<newPath>H:/test</newPath>									<!--新文件路径-->
+	<svnFilePath>C:/Users/hui/Desktop/into.bat</svnFilePath>						<!--SVN命令行配置文件-->
+	<fbFileName>发布申请_分支_ACS_5.0.3_DEV_20180731003.xls</fbFileName>  			<!--发布申请清单文件-->
+	<verPath>http://1.119.186.147:20080/svn/acssvn/Control/dev/Project</verPath>	<!--SVN发布版本路径-->
+	<version>ACS_5.0.3_DEV_20180731003.alpha</version>								<!--本期版本版本号-->
+</config>

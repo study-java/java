@@ -1,0 +1,163 @@
+Environment variables:
+  - =::=::\
+  - =C:=C:\Users\Lenovo
+  - =G:=G:\自动化发布研究\自动发布预研\acs.tools.publish
+  - =H:=H:\
+  - ALLUSERSPROFILE=C:\ProgramData
+  - ANALYSIS_PATH=D:\HP\LoadRunner\
+  - ANT_HOME=D:\SoftwareInstall\ant\apache-ant-1.9.13
+  - APPDATA=C:\Users\Lenovo\AppData\Roaming
+  - CATALINA_BASE=H:\D\tomcat
+  - CATALINA_HOME=H:\D\tomcat
+  - CLASSPATH=.;C:\Program Files\Java\jdk1.8.0_201\lib;C:\Program Files\Java\jdk1.8.0_201\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_201\lib\tools.jar;D:\SoftwareInstall\ant\apache-ant-1.9.13\lib;D:\googleDownload\apache-jmeter-5.0\lib\ext\ApacheJMeter_core.jar;D:\googleDownload\apache-jmeter-5.0\lib\jorphan.jar;
+  - COMPUTERNAME=LENOVO-PC
+  - CURR_DIR=D:\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\..
+  - ComSpec=C:\Windows\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - ERROR_CODE=0
+  - FP_NO_HOST_CHECK=NO
+  - FTP_PASSIVE=1
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\Lenovo
+  - JAVA_EXEC="D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin\..\jre\bin\java.exe"
+  - JAVA_HOME=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin\..\jre
+  - JMETER_HOME=D:\googleDownload\apache-jmeter-5.0
+  - LG_PATH=D:\HP\LoadRunner\
+  - LNKEVN=C:\Program Files (x86)\Internet Explorer\iexplore.exe
+  - LOCALAPPDATA=C:\Users\Lenovo\AppData\Local
+  - LOGGER_CONFIG_PATH=D:\HP\LoadRunner\dat\ltlogconf.xml
+  - LOGONSERVER=\\LENOVO-PC
+  - LR_PATH=D:\HP\LoadRunner\
+  - LR_ROOT=D:\HP\LoadRunner\
+  - MYSQL_HOME=D:\mysql-5.6.43
+  - NUMBER_OF_PROCESSORS=8
+  - OS=Windows_NT
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=3c03
+  - PROJECT_HOME=G:\自动化发布研究\自动发布预研\acs.tools.publish
+  - PROMPT=$P$G
+  - PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+  - PUBLIC=C:\Users\Public
+  - Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\googleDownload\python27\;D:\googleDownload\python27\Scripts;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;D:\SoftwareInstall\python36\Scripts\;D:\SoftwareInstall\python36\;D:\SoftwareInstall\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;D:\SoftwareInstall\plsql\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;H:\D\tomcat\lib;H:\D\tomcat\bin;C:\Windows\System32;C:\Program Files\nodejs\node_modules;%CXF_HOME%/bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;H:\D\tomcat\lib;H:\D\tomcat\bin;D:\SoftwareInstall\ant\apache-ant-1.9.13\bin;D:\SoftwareInstall\Git\cmd;H:\D\Python36;D:\SoftwareInstall\firfox;C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;D:\googleDownload\apache-jmeter-5.0\bin;D:\SoftwareInstall;C:\Program Files\Microsoft VS Code\bin;H:\D\tomcat\lib;H:\D\tomcat\bin;D:\SoftwareInstall\bin;D:\mysql-5.6.43\bin;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin;C:\Program Files\EsafeNet\Cobra DocGuard Client;C:\Program Files\nodejs
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=Console
+  - SOFACONFIG_HOME=X:\sofa_home
+  - SONAR_SCANNER_HOME=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\Windows
+  - TARGETDIR=D:\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\..
+  - TEMP=C:\Users\Lenovo\AppData\Local\Temp
+  - TERM=dumb
+  - TMP=C:\Users\Lenovo\AppData\Local\Temp
+  - TOMCAT_HOME=D:\googleDownload\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34
+  - USERDOMAIN=Lenovo-PC
+  - USERNAME=Lenovo
+  - USERPROFILE=C:\Users\Lenovo
+  - VUGEN_PATH=D:\HP\LoadRunner\
+  - asl.log=Destination=file
+  - configsetroot=C:\Windows\ConfigSetRoot
+  - scriptdir=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin
+  - use_embedded_jre=true
+  - windir=C:\Windows
+  - windows_tracing_flags=3
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=GBK
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin\..\lib\sonar-scanner-cli-3.3.0.1492.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\endorsed
+  - java.ext.dirs=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+  - java.home=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre
+  - java.io.tmpdir=C:\Users\Lenovo\AppData\Local\Temp\
+  - java.library.path=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\googleDownload\python27\;D:\googleDownload\python27\Scripts;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;D:\SoftwareInstall\python36\Scripts\;D:\SoftwareInstall\python36\;D:\SoftwareInstall\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;D:\SoftwareInstall\plsql\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;H:\D\tomcat\lib;H:\D\tomcat\bin;C:\Windows\System32;C:\Program Files\nodejs\node_modules;%CXF_HOME%/bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;H:\D\tomcat\lib;H:\D\tomcat\bin;D:\SoftwareInstall\ant\apache-ant-1.9.13\bin;D:\SoftwareInstall\Git\cmd;H:\D\Python36;D:\SoftwareInstall\firfox;C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;D:\googleDownload\apache-jmeter-5.0\bin;D:\SoftwareInstall;C:\Program Files\Microsoft VS Code\bin;H:\D\tomcat\lib;H:\D\tomcat\bin;D:\SoftwareInstall\bin;D:\mysql-5.6.43\bin;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin;C:\Program Files\EsafeNet\Cobra DocGuard Client;C:\Program Files\nodejs;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_121-b13
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_121
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.121-b13
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 7
+  - os.version=6.1
+  - path.separator=;
+  - project.home=G:\自动化发布研究\自动发布预研\acs.tools.publish
+  - scanner.home=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\resources.jar;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\rt.jar;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\sunrsasign.jar;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\jsse.jar;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\jce.jar;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\charsets.jar;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\lib\jfr.jar;D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\classes
+  - sun.boot.library.path=D:\googleDownload\checkeCode\sonar-scanner-3.3.0\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=GBK
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=Service Pack 1
+  - sun.stderr.encoding=ms936
+  - sun.stdout.encoding=ms936
+  - user.country=CN
+  - user.dir=G:\自动化发布研究\自动发布预研\acs.tools.publish
+  - user.home=C:\Users\Lenovo
+  - user.language=zh
+  - user.name=Lenovo
+  - user.script=
+  - user.timezone=Asia/Shanghai
+  - user.variant=
+SonarQube plugins:
+  - C# 5.10.1.1411 (csharp)
+  - SonarPython 1.8.0.1496 (python)
+  - SonarJava 4.12.0.11033 (java)
+  - Chinese Pack 1.18 (l10nzh)
+  - Flex 2.3 (flex)
+  - Git 1.2 (scmgit)
+  - SonarXML 1.4.3.1027 (xml)
+  - SonarPHP 2.10.0.2087 (php)
+  - SVN 1.5.0.715 (scmsvn)
+  - SonarJS 3.1.1.5128 (javascript)
+Global properties:
+  - sonar.core.id=AWpIUZdtirPKhJW2tPlX
+  - sonar.core.startTime=2019-04-23T11:49:19+0800
+Settings for module: acs.tools.publish
+  - sonar.host.url=http://localhost:9000
+  - sonar.java.binaries=target/classes
+  - sonar.jdbc.password=******
+  - sonar.jdbc.url=jdbc:mysql://localhost:3306/sonar?useUnicode=true&characterEncoding=utf8
+  - sonar.jdbc.username=sonar
+  - sonar.login=******
+  - sonar.password=******
+  - sonar.projectBaseDir=G:\自动化发布研究\自动发布预研\acs.tools.publish
+  - sonar.projectKey=acs.tools.publish
+  - sonar.projectName=acs.tools.publish
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.3.0.1492
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src
+  - sonar.verbose=true
+  - sonar.working.directory=G:\自动化发布研究\自动发布预研\acs.tools.publish\.scannerwork

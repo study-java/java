@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Oct 18 19:00:39 CST 2018
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=G\:\\BaiduNetdiskDownload\\publish.cdLogin-1.0.0.1.jar
+manifest.mergeall=true
+manifest.mainclass=acs.tools.publish.functest.MCalss
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=<inc|acs.tools.publish/res>~chromedriver.exe

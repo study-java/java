@@ -1,0 +1,6 @@
+projectKey=acs.tools.publish
+serverUrl=http://localhost:9000
+serverVersion=6.6.0.32724
+dashboardUrl=http://localhost:9000/dashboard/index/acs.tools.publish
+ceTaskId=AWpIcNStirPKhJW2tQUK
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWpIcNStirPKhJW2tQUK
